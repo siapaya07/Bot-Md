@@ -11,7 +11,7 @@ let handler = async (m, { conn, text, isOwner, usedPrefix }) => {
         else global.db.data.chats[res].expired = now + jumlahHari
     })
     await conn.sendButton(res, `
-Halo, Saya adalah *WhatsApp Bot Simple With Baileys Multi-Device, Bot ini dipersembahkan oleh *ByuOfc*\n\n*NOTE:* Mohon untuk tidak menyalahgunakan bot, dan tidak menelfon/VC/Spam Bot.
+Halo, Saya adalah *WhatsApp Bot Simple With Baileys Multi-Device*, Bot ini dipersembahkan oleh *ByuOfc*\n\n*NOTE:* Mohon untuk tidak menyalahgunakan bot, dan tidak menelfon/VC/Spam Bot.
     
 ketik *${usedPrefix}menu* untuk melihat daftar perintah`.trim(), wm, ['Menu', `${usedPrefix}menu`], m)
 }
